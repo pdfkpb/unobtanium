@@ -5,4 +5,5 @@
 public class Pokemon
 {
     int x;
+    int y;
 }
