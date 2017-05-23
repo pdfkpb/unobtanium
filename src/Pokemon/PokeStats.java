@@ -90,31 +90,39 @@ public class PokeStats
 
     public final int getHp()
     {
-        return hp;
+        return this.hp;
     }
 
     public final int getAttack()
     {
-        return attack;
+        return this.attack;
     }
 
     public final int getDefence()
     {
-        return defence;
+        return this.defence;
     }
 
     public final int getSpAttack()
     {
-        return spAttack;
+        return this.spAttack;
     }
 
     public final int getSpDefence()
     {
-        return spDefence;
+        return this.spDefence;
     }
 
     public final int getSpeed()
     {
-        return speed;
+        return this.speed;
+    }
+
+    public final int getMax(){return this.MAX;}
+
+    public PokeStats add(PokeStats pokeStats)
+    {
+        return new PokeStats(this.hp+pokeStats.getHp(), this.attack+pokeStats.getAttack(), this.defence+pokeStats.getDefence(), this.spAttack+pokeStats.getSpAttack(),
+                        this.spDefence+pokeStats.getSpDefence(), this.speed+pokeStats.getSpeed(), this.MAX+pokeStats.getMax());
     }
 }
