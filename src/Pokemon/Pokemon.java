@@ -1,4 +1,6 @@
-//FILE::Pokemon.java
+package Pokemon;
+
+//FILE::Pokemon.Pokemon.java
 //AUTHOR::Kevin.P.Barnett
 //DATE::May.23.2017
 
