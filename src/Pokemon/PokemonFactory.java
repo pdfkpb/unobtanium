@@ -37,11 +37,11 @@ public class PokemonFactory {
     public PokeStats getBaseStats(String pokemon){
         String stats = pokemonBaseStats.get(pokemon);
         int hp = Integer.parseInt(stats.split(",")[0]);
-        int att = Integer.parseInt(stats.split(",")[0]);
-        int def = Integer.parseInt(stats.split(",")[0]);
-        int spAtt = Integer.parseInt(stats.split(",")[0]);
-        int spDef = Integer.parseInt(stats.split(",")[0]);
-        int speed = Integer.parseInt(stats.split(",")[0]);
+        int att = Integer.parseInt(stats.split(",")[1]);
+        int def = Integer.parseInt(stats.split(",")[2]);
+        int spAtt = Integer.parseInt(stats.split(",")[3]);
+        int spDef = Integer.parseInt(stats.split(",")[4]);
+        int speed = Integer.parseInt(stats.split(",")[6]);
         return new PokeStats(hp,att,def,spAtt,spDef,speed,1000);
     }
 }
