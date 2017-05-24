@@ -35,8 +35,25 @@
 65,SolarBeam
 
 #charmander
+01,Scratch
+01,Growl
+09,Ember
+15,Leer
+22,Rage
+30,Slash
+38,Flamethrower
+46,Fire Spin
 
 #charmeleon
+01,Scratch
+01,Growl
+01,Ember
+09,Ember
+15,Leer
+24,Rage
+33,Slash
+42,Flamethrower
+56,Fire Spin
 
 #charizard
 01,Scratch
@@ -204,6 +221,18 @@
 47,Acid
 
 #pikachu
+01,ThunderShock
+01,Growl
+06,Tail Whip
+08,Thunder Wave
+11,Quick Attack
+15,Double Team
+20,Slam
+26,Thunderbolt
+33,Agility
+41,Thunder
+50,Light Screen
+26,Swift
 
 #raichu
 01,ThunderShock
